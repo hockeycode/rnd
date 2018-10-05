@@ -90,12 +90,6 @@ def flatten(df,dictcol,stem='',skip=[]):
 
 
 
-#teamindex=['NJD','NYI','NYR','WAS','PIT','PHI']
-#listofdicts=[{'place':9,'awesome':0},{'place':8,'awesome':0},{'place':7,'awesome':0},{'place':1,'awesome':1},{'place':2,'awesome':0},{'place':3,'awesome':0}]
-#df1=pd.DataFrame(listofdicts,index=teamindex)
-#print(df1)
-
-
 
 
 
