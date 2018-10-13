@@ -6,7 +6,7 @@
 import pandas as pd
 import numpy as np 
 import json
-import hockeyutils2 as h
+import hockeyutils as h
 
 ####################################################################
 # 1. Collect the list of games for a single season

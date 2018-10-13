@@ -4,6 +4,7 @@
 #    Convenient for debugging
 # 2. extract a primary key hidden deep in your json 
 # 3. flatten a df column that contains a dictionary 
+# 4. things I keep looking at while debugging
 
 import requests
 import pandas as pd
@@ -88,7 +89,14 @@ def flatten(df,dictcol,stem='',skip=[]):
 	return(newdf)
 
 
-
+####################################################################
+# 4. things I keep looking at while debugging
+####################################################################
+def checks(df,head=True):
+	print(df.dtypes)
+	print(df.index.names)
+	if head==True:
+		print(df.head(2))
 
 
 
