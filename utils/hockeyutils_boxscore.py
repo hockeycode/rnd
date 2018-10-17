@@ -99,11 +99,15 @@ def multiplayergamestats(apiurl,outloc,season):
 #    Probably should recode to make (2) and (3) more aligned
 ####################################################################
 
-def multiplayergamestats2(apiurl,outloc,games):
+def multiplayergamestats2(games,apiurl,outloc=''):
 	gamestatlist=[]
 	for gameid in games:
-		outds=outloc+'/boxscore'+repr(gameid)
-		r=h.pulldown(outfile=outds)
+		if outloc=='':
+			outds=''
+		else:
+			outds=outloc+'/boxscore'+repr(gameid)
+		thisurl=apiurl+'/game/'+repr(gameid)+'/boxscore'
+		r=h.pulldown(inurl=thisurl,outfile=outds)
 		c=fillstats(r)
 		gamestatlist.append(c)
 	gamestats=pd.concat(gamestatlist,keys=games,names=['gameid','teamid','personid'],sort=True)
