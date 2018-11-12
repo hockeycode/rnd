@@ -31,7 +31,7 @@ import pandas as pd
 import numpy as np 
 import json
 import hockeyutils as h
-
+import time
 
 ##########################################################
 # 1. Playerdata function, which returns data with one row
@@ -39,7 +39,11 @@ import hockeyutils as h
 # added for places where there is more than one record per
 # player per season, e.g. home vs. away records
 ##########################################################
-def playerdata(outloc,apiurl,sptuples=[],seasons=[],peopleids=[],reporttype=['a'],handle='playerdata'):
+def playerdata(outloc,apiurl,sptuples=[],seasons=[],peopleids=[],reporttype=['a'],handle='playerdata',inc=50):
+
+	# tracking, since this can be a long-running program
+	counter=0
+	tick=time.time()
 
 	# this iterates through tuples. If tuples don't 
 	# already exist in sptuples, create sptuples from
@@ -108,7 +112,12 @@ def playerdata(outloc,apiurl,sptuples=[],seasons=[],peopleids=[],reporttype=['a'
 		if len(combined)>0:
 			indextuples.append((season,personid))
 			dictlist.append(combined)
-
+		
+		# tracking
+		counter=counter+1
+		tock=time.time()
+		if counter%inc==0:
+			print('Reached '+repr(counter)+' after '+repr(tock-tick)+' seconds')
 
 	playerindex=pd.MultiIndex.from_tuples(indextuples,names=['season','personid'])
 	df=pd.DataFrame(dictlist,index=playerindex,copy=True)
