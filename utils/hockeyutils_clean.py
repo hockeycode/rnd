@@ -72,6 +72,7 @@ def cleantime(df,stem=''):
 def cleanstr(df):
 	df['birthCountry2']=countrybktv(df['birthCountry'])
 	df['nationality2']=countrybktv(df['nationality'])
+
 	return(df)
 
 
@@ -88,3 +89,22 @@ def cleanother(df):
 	df['shotspergame']=df['shots']/df['games']
 	df['shotspergame'].fillna(0,inplace=True)
 	return(df)
+
+def dummies(df):
+
+	df=pd.get_dummies(df,columns=['birthCountry2'])
+	df=pd.get_dummies(df,columns=['nationality2'])
+	df=pd.get_dummies(df,prefix='position',columns=['primaryPosition.code'])
+	df=pd.get_dummies(df,prefix='position2',columns=['primaryPosition.type'])
+	df=pd.get_dummies(df,columns=['shootsCatches'])
+
+	# Drop the reference level for each set of dummies
+	# Note that we have already dropped the goalie level from the
+	# captains analysis dataset, so there is one level not 
+	# observed in the sample. If subsequent analysis covers 
+	# goalies, will need to update these scripts
+	df.drop(columns=['birthCountry2_OTH','nationality2_OTH','position_D','shootsCatches_R','position2_Defenseman'],inplace=True)
+	return(df)
+
+
+
