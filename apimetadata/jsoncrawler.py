@@ -11,7 +11,9 @@ import codecs
 # writes metadata from an endnode
 #############################################################
 def endnode(myobj,myfile,inittxt):
-	if type(myobj) in [int,float]:
+	if myobj is None:
+		return(0)
+	elif type(myobj) in [int,float]:
 		leaftxt=repr(myobj)
 	elif type(myobj)==bool:
 		leaftxt=repr(myobj)
@@ -26,7 +28,7 @@ def endnode(myobj,myfile,inittxt):
 #############################################################
 # crawls through json data to pull the structure
 #############################################################
-def jsoncrawler(thisdict,leadingspaces='',keylist='',maxleaves=30,omitaway=True):
+def jsoncrawler(thisdict,myfile,leadingspaces='',keylist='',maxleaves=30,omitaway=True):
 	# jsoncrawler iterates through json data
 	# leaves are the keys of a dictionary within a given
 	# level of json data
@@ -52,7 +54,7 @@ def jsoncrawler(thisdict,leadingspaces='',keylist='',maxleaves=30,omitaway=True)
 			#myfile.write(leadingspaces+keylist+'['+repr(leaf)+']'+'**********************************'+'\n')
 			myfile.write(leadingspaces+'*********************************************************************'+'\n')
 			myfile.write(leadingspaces+keylist+'['+repr(leaf)+'] is a dictionary with '+repr(len(thisdict[leaf]))+' keys:'+'\n')
-			jsoncrawler(thisdict[leaf].copy(),leadingspaces+'    ',keylist+'['+repr(leaf)+']',maxleaves)
+			jsoncrawler(thisdict[leaf].copy(),myfile,leadingspaces+'    ',keylist+'['+repr(leaf)+']',maxleaves)
 
 		elif isinstance(thisdict[leaf],list):
 			myfile.write('\n')
@@ -67,7 +69,7 @@ def jsoncrawler(thisdict,leadingspaces='',keylist='',maxleaves=30,omitaway=True)
 			if isinstance(thislist,dict):
 				myfile.write(leadingspaces+keylist+'['+repr(leaf)+']'+firstitems+'**********************************'+'\n')
 				myfile.write(leadingspaces+keylist+'['+repr(leaf)+']'+firstitems+' is a dictionary with '+repr(len(thislist))+' keys:'+'\n')
-				jsoncrawler(thislist,leadingspaces+'    ',keylist+'['+repr(leaf)+']'+firstitems,maxleaves)
+				jsoncrawler(thislist,myfile,leadingspaces+'    ',keylist+'['+repr(leaf)+']'+firstitems,maxleaves)
 			else:
 	 			endnode(thislist,myfile,leadingspaces+keylist+'['+repr(leaf)+']'+firstitems+': ')
 

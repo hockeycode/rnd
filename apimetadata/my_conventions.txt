@@ -1,0 +1,76 @@
+Conventions:
+
+Module names:
+	- should start with hockeyutils if they are primarily focused on 
+	  processing data from the NHL API
+	- should reference the specific NHL API call if they are mostly just
+	  processing that specific type of data 
+
+
+Standard variable names, usually used as indices/keys:
+	gameid: the unique numeric identifier for a game in data pulled
+		through the NHL API, of the form 
+			<season start year><pre/reg/playoffs><counter>
+		for example 2017020001 is the first regular season game 
+		of the 2017-8 season
+		AKA: gameId, gamePk, game.id
+	personid: the unique numeric identifier for a player, 8400000+ in 
+		recent years
+		AKA: playerId, person.id
+	teamid: the unique numeric identifier for a team, 0-100 as of today
+		not to be confused with franchise id
+		AKA: teamId, team.id
+	confid: unique identifier for a conference
+	season: the season of play, of the form 20172018
+
+Variable name patterns:
+	prefixes for categories of data:
+		t. team
+		p. player
+		c. conference
+	prefixes for who:
+		s. shooter
+		g. goalie
+		h. home team
+		a. away team
+	prefixes for sources:
+		lf. livefeed
+		box. boxscore
+		s. schedule
+	in the case of multiple items of a given type, add a counter:
+		t1. the first of two teams listed
+		box1. the first of two boxscores used
+	lists of things used primarily to iterate through something:
+		should be of the form "<something>list"
+		for example:
+			gamelist=[2017020066,2017020067]
+			for gameid in gamelist:
+				<do stuff>
+		In general, the standard variables (gameid, personid, etc.) 
+		can be abbreviated, hence gamelist above. Otherwise, try to
+		write them out if the name doesn't get too long
+	dictionaries of things should end with "dict"
+		Same comments as with lists of things
+	counters in iteration:
+		Use ii, ij, ik for stuff that is largely contentless and
+		local. If there is content to the looping, especially if
+		looping is nested, go for something easier to associate,
+		for example in the gamelist example above. Another 
+		example:
+			for s in stuff:
+				for t in things:
+					<do stuff to things>
+	local low-content variables: it is okay to use low-content names
+		like "x", "y", "z", "df1", "df2" -- but where parallels
+		across functions are needed, it is probably better to add
+		constants
+
+
+Function naming: 
+	Functions that pull data from the NHL API: start with "pull"
+	Functions that primarily are there to initialize things: start with "make"
+	Functions that calculate some standard variable: start with "calc"
+		Example: "calcplusminus" calculates +/- and doesn't do other stuff
+	Functions that primarily interact with a specific structure within 
+		the NHL API should reference that in their name
+

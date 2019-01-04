@@ -1,0 +1,559 @@
+[u'officials', u'copyright', u'teams']
+
+*********************************************************************
+[u'officials'] is a list with 4 levels:
+[u'officials'][0]**********************************
+[u'officials'][0] is a dictionary with 2 keys:
+    [u'official', u'officialType']
+
+    *********************************************************************
+    [u'officials'][0][u'official'] is a dictionary with 3 keys:
+        [u'fullName', u'link', u'id']
+        [u'officials'][0][u'official'][u'fullName']: <type 'unicode'>, sample data: u'Wes McCauley'
+        [u'officials'][0][u'official'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/2332'
+        [u'officials'][0][u'official'][u'id']: <type 'int'>, sample data: 2332
+    [u'officials'][0][u'officialType']: <type 'unicode'>, sample data: u'Referee'
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
+
+*********************************************************************
+[u'teams'] is a dictionary with 2 keys:
+    [u'home', u'away']
+
+    *********************************************************************
+    [u'teams'][u'home'] is a dictionary with 10 keys:
+        [u'teamStats', u'skaters', u'goalies', u'coaches', u'onIce', u'scratches', u'players', u'onIcePlus', u'team', u'penaltyBox']
+
+        *********************************************************************
+        [u'teams'][u'home'][u'teamStats'] is a dictionary with 1 keys:
+            [u'teamSkaterStats']
+
+            *********************************************************************
+            [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'] is a dictionary with 11 keys:
+                [u'hits', u'faceOffWinPercentage', u'pim', u'takeaways', u'powerPlayOpportunities', u'powerPlayPercentage', u'giveaways', u'goals', u'shots', u'powerPlayGoals', u'blocked']
+                Report truncated at 10 leaves
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'hits']: <type 'int'>, sample data: 23
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'faceOffWinPercentage']: <type 'unicode'>, sample data: u'53.3'
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'pim']: <type 'int'>, sample data: 14
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'takeaways']: <type 'int'>, sample data: 4
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'powerPlayOpportunities']: <type 'float'>, sample data: 2.0
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'powerPlayPercentage']: <type 'unicode'>, sample data: u'50.0'
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'giveaways']: <type 'int'>, sample data: 11
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'goals']: <type 'int'>, sample data: 8
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'shots']: <type 'int'>, sample data: 37
+                [u'teams'][u'home'][u'teamStats'][u'teamSkaterStats'][u'powerPlayGoals']: <type 'float'>, sample data: 1.0
+
+        *********************************************************************
+        [u'teams'][u'home'][u'skaters'] is a list with 20 levels:
+        [u'teams'][u'home'][u'skaters'][0]: <type 'int'>, sample data: 8475462
+
+        *********************************************************************
+        [u'teams'][u'home'][u'goalies'] is a list with 1 levels:
+        [u'teams'][u'home'][u'goalies'][0]: <type 'int'>, sample data: 8470880
+
+        *********************************************************************
+        [u'teams'][u'home'][u'coaches'] is a list with 1 levels:
+        [u'teams'][u'home'][u'coaches'][0]**********************************
+        [u'teams'][u'home'][u'coaches'][0] is a dictionary with 2 keys:
+            [u'person', u'position']
+
+            *********************************************************************
+            [u'teams'][u'home'][u'coaches'][0][u'person'] is a dictionary with 2 keys:
+                [u'fullName', u'link']
+                [u'teams'][u'home'][u'coaches'][0][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Dave Hakstol'
+                [u'teams'][u'home'][u'coaches'][0][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/null'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'coaches'][0][u'position'] is a dictionary with 4 keys:
+                [u'abbreviation', u'code', u'type', u'name']
+                [u'teams'][u'home'][u'coaches'][0][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'Head Coach'
+                [u'teams'][u'home'][u'coaches'][0][u'position'][u'code']: <type 'unicode'>, sample data: u'HC'
+                [u'teams'][u'home'][u'coaches'][0][u'position'][u'type']: <type 'unicode'>, sample data: u'Head Coach'
+                [u'teams'][u'home'][u'coaches'][0][u'position'][u'name']: <type 'unicode'>, sample data: u'Head Coach'
+
+        *********************************************************************
+        [u'teams'][u'home'][u'onIce'] is a list with 6 levels:
+        [u'teams'][u'home'][u'onIce'][0]: <type 'int'>, sample data: 8470880
+
+        *********************************************************************
+        [u'teams'][u'home'][u'scratches'] is a list with 2 levels:
+        [u'teams'][u'home'][u'scratches'][0]: <type 'int'>, sample data: 8474627
+
+        *********************************************************************
+        [u'teams'][u'home'][u'players'] is a dictionary with 21 keys:
+            [u'ID8479974', u'ID8473512', u'ID8475462', u'ID8474190', u'ID8476955', u'ID8475738', u'ID8477290', u'ID8478439', u'ID8476461', u'ID8474627', u'ID8474161', u'ID8477948', u'ID8478500', u'ID8477462', u'ID8476906', u'ID8473584', u'ID8475430', u'ID8476872', u'ID8474668', u'ID8470047', u'ID8470880']
+            Report truncated at 10 leaves
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8479974'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'] is a dictionary with 22 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'birthStateProvince', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'19'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'weight']: <type 'int'>, sample data: 198
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1998-09-19'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'height']: <type 'unicode'>, sample data: u'6\' 2"'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'Winnipeg'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84799'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'currentAge']: <type 'int'>, sample data: 20
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'CAN'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Nolan Patrick'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8479974'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'position'][u'code']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'position'][u'type']: <type 'unicode'>, sample data: u'Forward'
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'position'][u'name']: <type 'unicode'>, sample data: u'Center'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'] is a dictionary with 20 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'faceOffPct', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 7
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 5
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8479974'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 0
+                [u'teams'][u'home'][u'players'][u'ID8479974'][u'jerseyNumber']: <type 'unicode'>, sample data: u'19'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8473512'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'] is a dictionary with 22 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'birthStateProvince', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'28'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'weight']: <type 'int'>, sample data: 185
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1988-01-12'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'height']: <type 'unicode'>, sample data: u'5\' 11"'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'Hearst'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84735'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'currentAge']: <type 'int'>, sample data: 30
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'CAN'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Claude Giroux'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8473512'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'position'][u'code']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'position'][u'type']: <type 'unicode'>, sample data: u'Forward'
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'position'][u'name']: <type 'unicode'>, sample data: u'Center'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'] is a dictionary with 20 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'faceOffPct', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 6
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 4
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 2
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 2
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8473512'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 1
+                [u'teams'][u'home'][u'players'][u'ID8473512'][u'jerseyNumber']: <type 'unicode'>, sample data: u'28'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8475462'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'] is a dictionary with 21 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'3'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'weight']: <type 'int'>, sample data: 204
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1990-06-05'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'height']: <type 'unicode'>, sample data: u'6\' 0"'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'Prague'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84754'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'currentAge']: <type 'int'>, sample data: 28
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'CZE'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Radko Gudas'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8475462'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'D'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'position'][u'code']: <type 'unicode'>, sample data: u'D'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'position'][u'type']: <type 'unicode'>, sample data: u'Defenseman'
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'position'][u'name']: <type 'unicode'>, sample data: u'Defenseman'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'] is a dictionary with 19 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 10
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475462'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 3
+                [u'teams'][u'home'][u'players'][u'ID8475462'][u'jerseyNumber']: <type 'unicode'>, sample data: u'3'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8474190'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'] is a dictionary with 22 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'birthStateProvince', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'17'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'weight']: <type 'int'>, sample data: 185
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1988-08-26'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'height']: <type 'unicode'>, sample data: u'6\' 2"'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'Scarborough'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84741'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'currentAge']: <type 'int'>, sample data: 30
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'CAN'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Wayne Simmonds'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8474190'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'RW'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'position'][u'code']: <type 'unicode'>, sample data: u'R'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'position'][u'type']: <type 'unicode'>, sample data: u'Forward'
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'position'][u'name']: <type 'unicode'>, sample data: u'Right Wing'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'] is a dictionary with 19 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8474190'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 1
+                [u'teams'][u'home'][u'players'][u'ID8474190'][u'jerseyNumber']: <type 'unicode'>, sample data: u'17'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8476955'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'] is a dictionary with 22 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'birthStateProvince', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'20'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'weight']: <type 'int'>, sample data: 174
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1994-02-15'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'height']: <type 'unicode'>, sample data: u'5\' 10"'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'Saskatoon'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84769'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'currentAge']: <type 'int'>, sample data: 24
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'CAN'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Taylor Leier'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8476955'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'LW'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'position'][u'code']: <type 'unicode'>, sample data: u'L'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'position'][u'type']: <type 'unicode'>, sample data: u'Forward'
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'position'][u'name']: <type 'unicode'>, sample data: u'Left Wing'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'] is a dictionary with 19 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476955'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 0
+                [u'teams'][u'home'][u'players'][u'ID8476955'][u'jerseyNumber']: <type 'unicode'>, sample data: u'20'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8475738'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'] is a dictionary with 22 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'birthStateProvince', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'40'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'weight']: <type 'int'>, sample data: 179
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1992-04-15'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'height']: <type 'unicode'>, sample data: u'5\' 10"'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'North Vancouver'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84757'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'currentAge']: <type 'int'>, sample data: 26
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'CAN'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Jordan Weal'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8475738'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'position'][u'code']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'position'][u'type']: <type 'unicode'>, sample data: u'Forward'
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'position'][u'name']: <type 'unicode'>, sample data: u'Center'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'] is a dictionary with 20 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'faceOffPct', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 3
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8475738'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 0
+                [u'teams'][u'home'][u'players'][u'ID8475738'][u'jerseyNumber']: <type 'unicode'>, sample data: u'40'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8477290'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'] is a dictionary with 21 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'12'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'weight']: <type 'int'>, sample data: 200
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1988-12-01'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'height']: <type 'unicode'>, sample data: u'6\' 0"'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'Villach'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84772'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'currentAge']: <type 'int'>, sample data: 30
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'AUT'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Michael Raffl'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8477290'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'LW'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'position'][u'code']: <type 'unicode'>, sample data: u'L'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'position'][u'type']: <type 'unicode'>, sample data: u'Forward'
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'position'][u'name']: <type 'unicode'>, sample data: u'Left Wing'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'] is a dictionary with 20 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'faceOffPct', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8477290'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 0
+                [u'teams'][u'home'][u'players'][u'ID8477290'][u'jerseyNumber']: <type 'unicode'>, sample data: u'12'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8478439'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'] is a dictionary with 22 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'birthStateProvince', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'11'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'weight']: <type 'int'>, sample data: 175
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1997-03-11'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'height']: <type 'unicode'>, sample data: u'5\' 10"'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'London'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84784'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'currentAge']: <type 'int'>, sample data: 21
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'CAN'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Travis Konecny'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8478439'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'position'][u'code']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'position'][u'type']: <type 'unicode'>, sample data: u'Forward'
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'position'][u'name']: <type 'unicode'>, sample data: u'Center'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'] is a dictionary with 20 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'faceOffPct', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 4
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8478439'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 1
+                [u'teams'][u'home'][u'players'][u'ID8478439'][u'jerseyNumber']: <type 'unicode'>, sample data: u'11'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8476461'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'] is a dictionary with 22 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'birthStateProvince', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'14'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'weight']: <type 'int'>, sample data: 211
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1992-12-07'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'height']: <type 'unicode'>, sample data: u'6\' 3"'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'Phoenix'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84764'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'currentAge']: <type 'int'>, sample data: 26
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'CAN'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Sean Couturier'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8476461'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'position'][u'code']: <type 'unicode'>, sample data: u'C'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'position'][u'type']: <type 'unicode'>, sample data: u'Forward'
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'position'][u'name']: <type 'unicode'>, sample data: u'Center'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'] is a dictionary with 1 keys:
+                    [u'skaterStats']
+
+                    *********************************************************************
+                    [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'] is a dictionary with 20 keys:
+                        [u'penaltyMinutes', u'takeaways', u'faceoffTaken', u'faceOffWins', u'assists', u'goals', u'shortHandedAssists', u'powerPlayAssists', u'powerPlayGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'shortHandedGoals', u'giveaways', u'faceOffPct', u'shots', u'evenTimeOnIce', u'powerPlayTimeOnIce', u'shortHandedTimeOnIce']
+                        Report truncated at 10 leaves
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'penaltyMinutes']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'takeaways']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'faceoffTaken']: <type 'int'>, sample data: 11
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'faceOffWins']: <type 'int'>, sample data: 6
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'assists']: <type 'int'>, sample data: 1
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'goals']: <type 'int'>, sample data: 2
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'shortHandedAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'powerPlayAssists']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+                        [u'teams'][u'home'][u'players'][u'ID8476461'][u'stats'][u'skaterStats'][u'blocked']: <type 'int'>, sample data: 1
+                [u'teams'][u'home'][u'players'][u'ID8476461'][u'jerseyNumber']: <type 'unicode'>, sample data: u'14'
+
+            *********************************************************************
+            [u'teams'][u'home'][u'players'][u'ID8474627'] is a dictionary with 4 keys:
+                [u'person', u'position', u'stats', u'jerseyNumber']
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'] is a dictionary with 21 keys:
+                    [u'primaryNumber', u'weight', u'birthDate', u'height', u'birthCity', u'link', u'currentAge', u'active', u'nationality', u'fullName', u'captain', u'id', u'shootsCatches', u'firstName', u'lastName', u'primaryPosition', u'currentTeam', u'alternateCaptain', u'birthCountry', u'rookie', u'rosterStatus']
+                    Report truncated at 10 leaves
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'primaryNumber']: <type 'unicode'>, sample data: u'15'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'weight']: <type 'int'>, sample data: 212
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'birthDate']: <type 'unicode'>, sample data: u'1987-12-23'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'height']: <type 'unicode'>, sample data: u'6\' 2"'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'birthCity']: <type 'unicode'>, sample data: u'Helsinki'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'link']: <type 'unicode'>, sample data: u'/api/v1/people/84746'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'currentAge']: <type 'int'>, sample data: 31
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'active']: <type 'bool'>, sample data: True
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'nationality']: <type 'unicode'>, sample data: u'FIN'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'person'][u'fullName']: <type 'unicode'>, sample data: u'Jori Lehtera'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8474627'][u'position'] is a dictionary with 4 keys:
+                    [u'abbreviation', u'code', u'type', u'name']
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'position'][u'abbreviation']: <type 'unicode'>, sample data: u'N/A'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'position'][u'code']: <type 'unicode'>, sample data: u'N/A'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'position'][u'type']: <type 'unicode'>, sample data: u'Unknown'
+                    [u'teams'][u'home'][u'players'][u'ID8474627'][u'position'][u'name']: <type 'unicode'>, sample data: u'Unknown'
+
+                *********************************************************************
+                [u'teams'][u'home'][u'players'][u'ID8474627'][u'stats'] is a dictionary with 0 keys:
+                    []
+                [u'teams'][u'home'][u'players'][u'ID8474627'][u'jerseyNumber']: <type 'unicode'>, sample data: u'15'
+
+        *********************************************************************
+        [u'teams'][u'home'][u'onIcePlus'] is a list with 6 levels:
+        [u'teams'][u'home'][u'onIcePlus'][0]**********************************
+        [u'teams'][u'home'][u'onIcePlus'][0] is a dictionary with 3 keys:
+            [u'playerId', u'shiftDuration', u'stamina']
+            [u'teams'][u'home'][u'onIcePlus'][0][u'playerId']: <type 'int'>, sample data: 8479974
+            [u'teams'][u'home'][u'onIcePlus'][0][u'shiftDuration']: <type 'int'>, sample data: 18
+            [u'teams'][u'home'][u'onIcePlus'][0][u'stamina']: <type 'int'>, sample data: 100
+
+        *********************************************************************
+        [u'teams'][u'home'][u'team'] is a dictionary with 3 keys:
+            [u'link', u'id', u'name']
+            [u'teams'][u'home'][u'team'][u'link']: <type 'unicode'>, sample data: u'/api/v1/teams/4'
+            [u'teams'][u'home'][u'team'][u'id']: <type 'int'>, sample data: 4
+            [u'teams'][u'home'][u'team'][u'name']: <type 'unicode'>, sample data: u'Philadelphia Flyers'
+
+        *********************************************************************
+        [u'teams'][u'home'][u'penaltyBox'] is a list with 0 levels:
+        [u'teams'][u'home'][u'penaltyBox']: <type 'list'>, sample data: []

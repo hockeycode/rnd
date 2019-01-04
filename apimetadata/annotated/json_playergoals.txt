@@ -1,0 +1,35 @@
+[u'stats', u'copyright']
+
+*********************************************************************
+[u'stats'] is a list with 1 levels:
+[u'stats'][0]**********************************
+[u'stats'][0] is a dictionary with 2 keys:
+    [u'type', u'splits']
+
+    *********************************************************************
+    [u'stats'][0][u'type'] is a dictionary with 1 keys:
+        [u'displayName']
+        [u'stats'][0][u'type'][u'displayName']: <type 'unicode'>, sample data: u'goalsByGameSituation'
+
+    *********************************************************************
+    [u'stats'][0][u'splits'] is a list with 1 levels:
+    [u'stats'][0][u'splits'][0]**********************************
+    [u'stats'][0][u'splits'][0] is a dictionary with 2 keys:
+        [u'season', u'stat']
+        [u'stats'][0][u'splits'][0][u'season']: <type 'unicode'>, sample data: u'20172018'
+
+        *********************************************************************
+        [u'stats'][0][u'splits'][0][u'stat'] is a dictionary with 16 keys:
+            [u'goalsTrailingByThreePlus', u'penaltyShots', u'emptyNetGoals', u'goalsInOvertime', u'goalsInFirstPeriod', u'gameWinningGoals', u'shootOutShots', u'goalsInThirdPeriod', u'goalsTrailingByTwo', u'goalsInSecondPeriod', u'goalsTrailingByOne', u'goalsLeadingByTwo', u'penaltyGoals', u'goalsLeadingByOne', u'shootOutGoals', u'goalsWhenTied']
+            Report truncated at 10 leaves
+            [u'stats'][0][u'splits'][0][u'stat'][u'goalsTrailingByThreePlus']: <type 'int'>, sample data: 1
+            [u'stats'][0][u'splits'][0][u'stat'][u'penaltyShots']: <type 'int'>, sample data: 0
+            [u'stats'][0][u'splits'][0][u'stat'][u'emptyNetGoals']: <type 'int'>, sample data: 1
+            [u'stats'][0][u'splits'][0][u'stat'][u'goalsInOvertime']: <type 'int'>, sample data: 1
+            [u'stats'][0][u'splits'][0][u'stat'][u'goalsInFirstPeriod']: <type 'int'>, sample data: 6
+            [u'stats'][0][u'splits'][0][u'stat'][u'gameWinningGoals']: <type 'int'>, sample data: 4
+            [u'stats'][0][u'splits'][0][u'stat'][u'shootOutShots']: <type 'int'>, sample data: 1
+            [u'stats'][0][u'splits'][0][u'stat'][u'goalsInThirdPeriod']: <type 'int'>, sample data: 7
+            [u'stats'][0][u'splits'][0][u'stat'][u'goalsTrailingByTwo']: <type 'int'>, sample data: 1
+            [u'stats'][0][u'splits'][0][u'stat'][u'goalsInSecondPeriod']: <type 'int'>, sample data: 7
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'

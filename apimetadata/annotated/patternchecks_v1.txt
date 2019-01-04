@@ -1,0 +1,121 @@
+Note that teams match refers only to the overlapping variables with teamstats team info
+Basic team memo data (a few attributes)
+Comparing to teamstats
+scheduleteam: True
+schedule: True
+teams: False
+boxscore: True
+scheduledt2: True
+scheduledt1: True
+
+
+Detailed team information (name, franchise, etc.)
+Comparing to teams
+livefeed: False
+
+
+Conference description
+Comparing to teams
+teamrosterseason: True
+livefeed: True
+
+
+Division description
+Comparing to teams
+teamrosterseason: True
+livefeed: False
+
+
+Venue description
+Comparing to teams
+scheduleteam: False
+schedule: False
+scheduledt2: False
+livefeed: False
+scheduledt1: False
+teamrosterseason: True
+
+
+Franchise description
+Comparing to teams
+teamrosterseason: True
+livefeed: True
+
+
+Note that player match refers only to the overlapping variables with teamrosterseason info
+Short information on player
+Comparing to teamrosterseason
+player: False
+
+
+Detailed player information, date of data pull
+Comparing to teamrosterseason
+player: False
+boxscore: False
+livefeed: False
+
+
+Position -- standard
+Comparing to teamrosterseason
+player: True
+boxscore: True
+
+
+Skater stats
+Comparing to playerstatsseason
+playerstatsha: False
+playerstatsgl: False
+playerstatsmmm: False
+playerstatsdiv: False
+playerstatswl: False
+playerstatsconf: False
+playerstatsdow: False
+playerstatsvteam: False
+
+
+Full game query results
+Comparing to scheduleteam
+schedule: True
+scheduledt2: True
+scheduledt1: True
+
+
+Information on a specific game
+Comparing to scheduleteam
+scheduledt1: True
+scheduledt2: True
+schedule: True
+
+
+Game status
+Comparing to scheduleteam
+scheduledt1: True
+scheduledt2: True
+livefeed: True
+schedule: True
+
+
+Leauge record to date of game
+Comparing to scheduleteam
+scheduledt1: True
+scheduledt2: True
+schedule: True
+
+
+Team score in this game
+Comparing to scheduleteam
+scheduledt1: True
+scheduledt2: True
+schedule: True
+
+
+Linescore data
+Comparing to livefeed
+linescore: False
+
+
+Boxscore data
+Comparing to livefeed
+boxscore: False
+
+

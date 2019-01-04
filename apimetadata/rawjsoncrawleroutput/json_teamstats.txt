@@ -1,0 +1,41 @@
+[u'stats', u'copyright']
+
+*********************************************************************
+[u'stats'] is a list with 2 levels:
+[u'stats'][0]**********************************
+[u'stats'][0] is a dictionary with 2 keys:
+    [u'type', u'splits']
+
+    *********************************************************************
+    [u'stats'][0][u'type'] is a dictionary with 1 keys:
+        [u'displayName']
+        [u'stats'][0][u'type'][u'displayName']: <type 'unicode'>, sample data: u'statsSingleSeason'
+
+    *********************************************************************
+    [u'stats'][0][u'splits'] is a list with 1 levels:
+    [u'stats'][0][u'splits'][0]**********************************
+    [u'stats'][0][u'splits'][0] is a dictionary with 2 keys:
+        [u'stat', u'team']
+
+        *********************************************************************
+        [u'stats'][0][u'splits'][0][u'stat'] is a dictionary with 28 keys:
+            [u'winOutshootOpp', u'faceOffsWon', u'powerPlayOpportunities', u'faceOffsLost', u'penaltyKillPercentage', u'shotsAllowed', u'winScoreFirst', u'winLeadFirstPer', u'winLeadSecondPer', u'faceOffsTaken', u'goalsPerGame', u'evGGARatio', u'powerPlayGoalsAgainst', u'pts', u'powerPlayGoals', u'shootingPctg', u'winOppScoreFirst', u'shotsPerGame', u'gamesPlayed', u'faceOffWinPercentage', u'savePctg', u'wins', u'losses', u'powerPlayPercentage', u'ptPctg', u'winOutshotByOpp', u'goalsAgainstPerGame', u'ot']
+            Report truncated at 10 leaves
+            [u'stats'][0][u'splits'][0][u'stat'][u'winOutshootOpp']: <type 'float'>, sample data: 0.615
+            [u'stats'][0][u'splits'][0][u'stat'][u'faceOffsWon']: <type 'float'>, sample data: 1018.0
+            [u'stats'][0][u'splits'][0][u'stat'][u'powerPlayOpportunities']: <type 'float'>, sample data: 115.0
+            [u'stats'][0][u'splits'][0][u'stat'][u'faceOffsLost']: <type 'float'>, sample data: 1105.0
+            [u'stats'][0][u'splits'][0][u'stat'][u'penaltyKillPercentage']: <type 'unicode'>, sample data: u'77.1'
+            [u'stats'][0][u'splits'][0][u'stat'][u'shotsAllowed']: <type 'float'>, sample data: 31.9167
+            [u'stats'][0][u'splits'][0][u'stat'][u'winScoreFirst']: <type 'float'>, sample data: 0.765
+            [u'stats'][0][u'splits'][0][u'stat'][u'winLeadFirstPer']: <type 'float'>, sample data: 0.75
+            [u'stats'][0][u'splits'][0][u'stat'][u'winLeadSecondPer']: <type 'float'>, sample data: 0.85
+            [u'stats'][0][u'splits'][0][u'stat'][u'faceOffsTaken']: <type 'float'>, sample data: 2123.0
+
+        *********************************************************************
+        [u'stats'][0][u'splits'][0][u'team'] is a dictionary with 3 keys:
+            [u'link', u'id', u'name']
+            [u'stats'][0][u'splits'][0][u'team'][u'link']: <type 'unicode'>, sample data: u'/api/v1/teams/15'
+            [u'stats'][0][u'splits'][0][u'team'][u'id']: <type 'int'>, sample data: 15
+            [u'stats'][0][u'splits'][0][u'team'][u'name']: <type 'unicode'>, sample data: u'Washington Capitals'
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'

@@ -1,0 +1,85 @@
+See scheduleteam
+
+
+[u'totalGames', u'dates', u'totalMatches', u'copyright', u'totalEvents', u'totalItems', u'wait']
+[u'totalGames']: <type 'int'>, sample data: 14
+
+*********************************************************************
+[u'dates'] is a list with 1 levels:
+[u'dates'][0]**********************************
+[u'dates'][0] is a dictionary with 8 keys:
+    [u'totalGames', u'totalMatches', u'matches', u'totalEvents', u'date', u'games', u'totalItems', u'events']
+    [u'dates'][0][u'totalGames']: <type 'int'>, sample data: 14
+    [u'dates'][0][u'totalMatches']: <type 'int'>, sample data: 0
+
+    *********************************************************************
+    [u'dates'][0][u'matches'] is a list with 0 levels:
+    [u'dates'][0][u'matches']: <type 'list'>, sample data: []
+    [u'dates'][0][u'totalEvents']: <type 'int'>, sample data: 0
+    [u'dates'][0][u'date']: <type 'unicode'>, sample data: u'2017-10-14'
+
+    *********************************************************************
+    [u'dates'][0][u'games'] is a list with 14 levels:
+    [u'dates'][0][u'games'][0]**********************************
+    [u'dates'][0][u'games'][0] is a dictionary with 9 keys:
+        [u'status', u'season', u'gameDate', u'venue', u'gameType', u'teams', u'content', u'link', u'gamePk']
+
+        *********************************************************************
+        [u'dates'][0][u'games'][0][u'status'] is a dictionary with 5 keys:
+            [u'codedGameState', u'abstractGameState', u'startTimeTBD', u'detailedState', u'statusCode']
+            [u'dates'][0][u'games'][0][u'status'][u'codedGameState']: <type 'unicode'>, sample data: u'7'
+            [u'dates'][0][u'games'][0][u'status'][u'abstractGameState']: <type 'unicode'>, sample data: u'Final'
+            [u'dates'][0][u'games'][0][u'status'][u'startTimeTBD']: <type 'bool'>, sample data: False
+            [u'dates'][0][u'games'][0][u'status'][u'detailedState']: <type 'unicode'>, sample data: u'Final'
+            [u'dates'][0][u'games'][0][u'status'][u'statusCode']: <type 'unicode'>, sample data: u'7'
+        [u'dates'][0][u'games'][0][u'season']: <type 'unicode'>, sample data: u'20172018'
+        [u'dates'][0][u'games'][0][u'gameDate']: <type 'unicode'>, sample data: u'2017-10-14T23:00:00Z'
+
+        *********************************************************************
+        [u'dates'][0][u'games'][0][u'venue'] is a dictionary with 3 keys:
+            [u'link', u'id', u'name']
+            [u'dates'][0][u'games'][0][u'venue'][u'link']: <type 'unicode'>, sample data: u'/api/v1/venues/5058'
+            [u'dates'][0][u'games'][0][u'venue'][u'id']: <type 'int'>, sample data: 5058
+            [u'dates'][0][u'games'][0][u'venue'][u'name']: <type 'unicode'>, sample data: u'Bell MTS Place'
+        [u'dates'][0][u'games'][0][u'gameType']: <type 'unicode'>, sample data: u'R'
+
+        *********************************************************************
+        [u'dates'][0][u'games'][0][u'teams'] is a dictionary with 2 keys:
+            [u'home', u'away']
+
+            *********************************************************************
+            [u'dates'][0][u'games'][0][u'teams'][u'home'] is a dictionary with 3 keys:
+                [u'leagueRecord', u'score', u'team']
+
+                *********************************************************************
+                [u'dates'][0][u'games'][0][u'teams'][u'home'][u'leagueRecord'] is a dictionary with 4 keys:
+                    [u'wins', u'losses', u'type', u'ot']
+                    [u'dates'][0][u'games'][0][u'teams'][u'home'][u'leagueRecord'][u'wins']: <type 'int'>, sample data: 3
+                    [u'dates'][0][u'games'][0][u'teams'][u'home'][u'leagueRecord'][u'losses']: <type 'int'>, sample data: 2
+                    [u'dates'][0][u'games'][0][u'teams'][u'home'][u'leagueRecord'][u'type']: <type 'unicode'>, sample data: u'league'
+                    [u'dates'][0][u'games'][0][u'teams'][u'home'][u'leagueRecord'][u'ot']: <type 'int'>, sample data: 0
+                [u'dates'][0][u'games'][0][u'teams'][u'home'][u'score']: <type 'int'>, sample data: 2
+
+                *********************************************************************
+                [u'dates'][0][u'games'][0][u'teams'][u'home'][u'team'] is a dictionary with 3 keys:
+                    [u'link', u'id', u'name']
+                    [u'dates'][0][u'games'][0][u'teams'][u'home'][u'team'][u'link']: <type 'unicode'>, sample data: u'/api/v1/teams/52'
+                    [u'dates'][0][u'games'][0][u'teams'][u'home'][u'team'][u'id']: <type 'int'>, sample data: 52
+                    [u'dates'][0][u'games'][0][u'teams'][u'home'][u'team'][u'name']: <type 'unicode'>, sample data: u'Winnipeg Jets'
+
+        *********************************************************************
+        [u'dates'][0][u'games'][0][u'content'] is a dictionary with 1 keys:
+            [u'link']
+            [u'dates'][0][u'games'][0][u'content'][u'link']: <type 'unicode'>, sample data: u'/api/v1/game/2017020'
+        [u'dates'][0][u'games'][0][u'link']: <type 'unicode'>, sample data: u'/api/v1/game/2017020'
+        [u'dates'][0][u'games'][0][u'gamePk']: <type 'int'>, sample data: 2017020068
+    [u'dates'][0][u'totalItems']: <type 'int'>, sample data: 14
+
+    *********************************************************************
+    [u'dates'][0][u'events'] is a list with 0 levels:
+    [u'dates'][0][u'events']: <type 'list'>, sample data: []
+[u'totalMatches']: <type 'int'>, sample data: 0
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
+[u'totalEvents']: <type 'int'>, sample data: 0
+[u'totalItems']: <type 'int'>, sample data: 14
+[u'wait']: <type 'int'>, sample data: 10

@@ -1,0 +1,16 @@
+Very sandardized
+
+[u'copyright', u'people']
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
+
+*********************************************************************
+[u'people'] is a list with 1 levels:
+[u'people'][0]**********************************
+[u'people'][0] is a dictionary with 21 keys:
+	*** Standard player detail structure -- mostly ***
+
+    [u'people'][0][u'primaryPosition'] is a dictionary with 4 keys:
+	*** Standard position structure ***
+    [u'people'][0][u'birthDate']: <type 'unicode'>, sample data: u'1987-11-23'
+    [u'people'][0][u'currentTeam'] is a dictionary with 3 keys:
+ 	*** Standard team structure ***

@@ -1,0 +1,3 @@
+[u'message', u'messageNumber']
+[u'message']: <type 'unicode'>, sample data: u'Required List parame'
+[u'messageNumber']: <type 'int'>, sample data: 5

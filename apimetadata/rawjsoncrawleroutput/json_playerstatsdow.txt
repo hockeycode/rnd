@@ -1,0 +1,36 @@
+[u'stats', u'copyright']
+
+*********************************************************************
+[u'stats'] is a list with 1 levels:
+[u'stats'][0]**********************************
+[u'stats'][0] is a dictionary with 2 keys:
+    [u'type', u'splits']
+
+    *********************************************************************
+    [u'stats'][0][u'type'] is a dictionary with 1 keys:
+        [u'displayName']
+        [u'stats'][0][u'type'][u'displayName']: <type 'unicode'>, sample data: u'byDayOfWeek'
+
+    *********************************************************************
+    [u'stats'][0][u'splits'] is a list with 7 levels:
+    [u'stats'][0][u'splits'][0]**********************************
+    [u'stats'][0][u'splits'][0] is a dictionary with 3 keys:
+        [u'dayOfWeek', u'season', u'stat']
+        [u'stats'][0][u'splits'][0][u'dayOfWeek']: <type 'int'>, sample data: 1
+        [u'stats'][0][u'splits'][0][u'season']: <type 'unicode'>, sample data: u'20172018'
+
+        *********************************************************************
+        [u'stats'][0][u'splits'][0][u'stat'] is a dictionary with 26 keys:
+            [u'penaltyMinutes', u'pim', u'shotPct', u'assists', u'goals', u'timeOnIcePerGame', u'powerPlayPoints', u'powerPlayGoals', u'gameWinningGoals', u'blocked', u'timeOnIce', u'plusMinus', u'hits', u'evenTimeOnIcePerGame', u'powerPlayTimeOnIcePerGame', u'shortHandedPoints', u'shortHandedTimeOnIcePerGame', u'shifts', u'points', u'games', u'shots', u'evenTimeOnIce', u'overTimeGoals', u'powerPlayTimeOnIce', u'shortHandedGoals', u'shortHandedTimeOnIce']
+            Report truncated at 10 leaves
+            [u'stats'][0][u'splits'][0][u'stat'][u'penaltyMinutes']: <type 'unicode'>, sample data: u'10'
+            [u'stats'][0][u'splits'][0][u'stat'][u'pim']: <type 'int'>, sample data: 10
+            [u'stats'][0][u'splits'][0][u'stat'][u'shotPct']: <type 'float'>, sample data: 0.0
+            [u'stats'][0][u'splits'][0][u'stat'][u'assists']: <type 'int'>, sample data: 7
+            [u'stats'][0][u'splits'][0][u'stat'][u'goals']: <type 'int'>, sample data: 2
+            [u'stats'][0][u'splits'][0][u'stat'][u'timeOnIcePerGame']: <type 'unicode'>, sample data: u'19:56'
+            [u'stats'][0][u'splits'][0][u'stat'][u'powerPlayPoints']: <type 'int'>, sample data: 5
+            [u'stats'][0][u'splits'][0][u'stat'][u'powerPlayGoals']: <type 'int'>, sample data: 0
+            [u'stats'][0][u'splits'][0][u'stat'][u'gameWinningGoals']: <type 'int'>, sample data: 0
+            [u'stats'][0][u'splits'][0][u'stat'][u'blocked']: <type 'int'>, sample data: 7
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'

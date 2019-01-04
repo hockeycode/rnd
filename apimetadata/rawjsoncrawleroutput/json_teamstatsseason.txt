@@ -1,0 +1,90 @@
+[u'copyright', u'teams']
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
+
+*********************************************************************
+[u'teams'] is a list with 31 levels:
+[u'teams'][0]**********************************
+[u'teams'][0] is a dictionary with 16 keys:
+    [u'conference', u'teamStats', u'name', u'division', u'firstYearOfPlay', u'venue', u'teamName', u'officialSiteUrl', u'locationName', u'franchise', u'franchiseId', u'link', u'abbreviation', u'active', u'shortName', u'id']
+    Report truncated at 10 leaves
+
+    *********************************************************************
+    [u'teams'][0][u'conference'] is a dictionary with 3 keys:
+        [u'link', u'id', u'name']
+        [u'teams'][0][u'conference'][u'link']: <type 'unicode'>, sample data: u'/api/v1/conferences/'
+        [u'teams'][0][u'conference'][u'id']: <type 'int'>, sample data: 6
+        [u'teams'][0][u'conference'][u'name']: <type 'unicode'>, sample data: u'Eastern'
+
+    *********************************************************************
+    [u'teams'][0][u'teamStats'] is a list with 1 levels:
+    [u'teams'][0][u'teamStats'][0]**********************************
+    [u'teams'][0][u'teamStats'][0] is a dictionary with 2 keys:
+        [u'type', u'splits']
+
+        *********************************************************************
+        [u'teams'][0][u'teamStats'][0][u'type'] is a dictionary with 1 keys:
+            [u'displayName']
+            [u'teams'][0][u'teamStats'][0][u'type'][u'displayName']: <type 'unicode'>, sample data: u'statsSingleSeason'
+
+        *********************************************************************
+        [u'teams'][0][u'teamStats'][0][u'splits'] is a list with 2 levels:
+        [u'teams'][0][u'teamStats'][0][u'splits'][0]**********************************
+        [u'teams'][0][u'teamStats'][0][u'splits'][0] is a dictionary with 2 keys:
+            [u'stat', u'team']
+
+            *********************************************************************
+            [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'] is a dictionary with 28 keys:
+                [u'winOutshootOpp', u'faceOffsWon', u'powerPlayOpportunities', u'faceOffsLost', u'penaltyKillPercentage', u'shotsAllowed', u'winScoreFirst', u'winLeadFirstPer', u'winLeadSecondPer', u'faceOffsTaken', u'goalsPerGame', u'evGGARatio', u'powerPlayGoalsAgainst', u'pts', u'powerPlayGoals', u'shootingPctg', u'winOppScoreFirst', u'shotsPerGame', u'gamesPlayed', u'faceOffWinPercentage', u'savePctg', u'wins', u'losses', u'powerPlayPercentage', u'ptPctg', u'winOutshotByOpp', u'goalsAgainstPerGame', u'ot']
+                Report truncated at 10 leaves
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'winOutshootOpp']: <type 'float'>, sample data: 0.457
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'faceOffsWon']: <type 'float'>, sample data: 2371.0
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'powerPlayOpportunities']: <type 'float'>, sample data: 252.0
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'faceOffsLost']: <type 'float'>, sample data: 2675.0
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'penaltyKillPercentage']: <type 'unicode'>, sample data: u'81.8'
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'shotsAllowed']: <type 'float'>, sample data: 31.9024
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'winScoreFirst']: <type 'float'>, sample data: 0.692
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'winLeadFirstPer']: <type 'float'>, sample data: 0.739
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'winLeadSecondPer']: <type 'float'>, sample data: 0.941
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'stat'][u'faceOffsTaken']: <type 'float'>, sample data: 5046.0
+
+            *********************************************************************
+            [u'teams'][0][u'teamStats'][0][u'splits'][0][u'team'] is a dictionary with 3 keys:
+                [u'link', u'id', u'name']
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'team'][u'link']: <type 'unicode'>, sample data: u'/api/v1/teams/1'
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'team'][u'id']: <type 'int'>, sample data: 1
+                [u'teams'][0][u'teamStats'][0][u'splits'][0][u'team'][u'name']: <type 'unicode'>, sample data: u'New Jersey Devils'
+    [u'teams'][0][u'name']: <type 'unicode'>, sample data: u'New Jersey Devils'
+
+    *********************************************************************
+    [u'teams'][0][u'division'] is a dictionary with 5 keys:
+        [u'nameShort', u'abbreviation', u'link', u'id', u'name']
+        [u'teams'][0][u'division'][u'nameShort']: <type 'unicode'>, sample data: u'Metro'
+        [u'teams'][0][u'division'][u'abbreviation']: <type 'unicode'>, sample data: u'M'
+        [u'teams'][0][u'division'][u'link']: <type 'unicode'>, sample data: u'/api/v1/divisions/18'
+        [u'teams'][0][u'division'][u'id']: <type 'int'>, sample data: 18
+        [u'teams'][0][u'division'][u'name']: <type 'unicode'>, sample data: u'Metropolitan'
+    [u'teams'][0][u'firstYearOfPlay']: <type 'unicode'>, sample data: u'1982'
+
+    *********************************************************************
+    [u'teams'][0][u'venue'] is a dictionary with 4 keys:
+        [u'city', u'link', u'name', u'timeZone']
+        [u'teams'][0][u'venue'][u'city']: <type 'unicode'>, sample data: u'Newark'
+        [u'teams'][0][u'venue'][u'link']: <type 'unicode'>, sample data: u'/api/v1/venues/null'
+        [u'teams'][0][u'venue'][u'name']: <type 'unicode'>, sample data: u'Prudential Center'
+
+        *********************************************************************
+        [u'teams'][0][u'venue'][u'timeZone'] is a dictionary with 3 keys:
+            [u'tz', u'id', u'offset']
+            [u'teams'][0][u'venue'][u'timeZone'][u'tz']: <type 'unicode'>, sample data: u'EST'
+            [u'teams'][0][u'venue'][u'timeZone'][u'id']: <type 'unicode'>, sample data: u'America/New_York'
+            [u'teams'][0][u'venue'][u'timeZone'][u'offset']: <type 'int'>, sample data: -5
+    [u'teams'][0][u'teamName']: <type 'unicode'>, sample data: u'Devils'
+    [u'teams'][0][u'officialSiteUrl']: <type 'unicode'>, sample data: u'http://www.newjersey'
+    [u'teams'][0][u'locationName']: <type 'unicode'>, sample data: u'New Jersey'
+
+    *********************************************************************
+    [u'teams'][0][u'franchise'] is a dictionary with 3 keys:
+        [u'franchiseId', u'link', u'teamName']
+        [u'teams'][0][u'franchise'][u'franchiseId']: <type 'int'>, sample data: 23
+        [u'teams'][0][u'franchise'][u'link']: <type 'unicode'>, sample data: u'/api/v1/franchises/2'
+        [u'teams'][0][u'franchise'][u'teamName']: <type 'unicode'>, sample data: u'Devils'

@@ -1,0 +1,32 @@
+Largely standard pieces, but note that the exact structure differs
+from some other playerstats files
+
+[u'stats', u'copyright']
+
+*********************************************************************
+[u'stats'] is a list with 1 levels:
+[u'stats'][0]**********************************
+[u'stats'][0] is a dictionary with 2 keys:
+    [u'type', u'splits']
+
+    *********************************************************************
+    [u'stats'][0][u'type'] is a dictionary with 1 keys:
+        [u'displayName']
+        [u'stats'][0][u'type'][u'displayName']: <type 'unicode'>, sample data: u'vsTeam'
+
+    *********************************************************************
+    [u'stats'][0][u'splits'] is a list with 30 levels:
+    [u'stats'][0][u'splits'][0]**********************************
+    [u'stats'][0][u'splits'][0] is a dictionary with 5 keys:
+        [u'season', u'stat', u'opponentConference', u'opponentDivision', u'opponent']
+        [u'stats'][0][u'splits'][0][u'season']: <type 'unicode'>, sample data: u'20172018'
+        [u'stats'][0][u'splits'][0][u'stat'] is a dictionary with 28 keys:
+		*** Standard playerstats format **
+        [u'stats'][0][u'splits'][0][u'opponentConference'] is a dictionary with 3 keys:
+		*** Standard conference format ***
+        [u'stats'][0][u'splits'][0][u'opponentDivision'] is a dictionary with 3 keys:
+		*** Standard division format ***
+        [u'stats'][0][u'splits'][0][u'opponent'] is a dictionary with 3 keys:
+		*** Standard team memo format ***
+
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'

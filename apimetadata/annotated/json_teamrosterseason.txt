@@ -1,0 +1,41 @@
+This is mostly standardized. The key differences are that the person
+dictionary has a 'fullName' key instead of 'name'
+
+
+[u'copyright', u'teams']
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
+
+*********************************************************************
+[u'teams'] is a list with 31 levels:
+[u'teams'][0]**********************************
+[u'teams'][0] is a dictionary with 16 keys:
+    [u'conference', u'division', u'name', u'firstYearOfPlay', u'roster', u'venue', u'teamName', u'officialSiteUrl', u'locationName', u'franchise', u'franchiseId', u'link', u'abbreviation', u'active', u'shortName', u'id']
+    [u'teams'][0][u'conference'] is a dictionary with 3 keys:
+	*** Standard conference structure *** 
+    [u'teams'][0][u'division'] is a dictionary with 5 keys:
+	*** Standard division structure *** 
+    [u'teams'][0][u'name']: <type 'unicode'>, sample data: u'New Jersey Devils'
+    [u'teams'][0][u'firstYearOfPlay']: <type 'unicode'>, sample data: u'1982'
+    [u'teams'][0][u'venue'] is a dictionary with 4 keys:
+	*** Standard venue structure *** 
+    [u'teams'][0][u'teamName']: <type 'unicode'>, sample data: u'Devils'
+    [u'teams'][0][u'officialSiteUrl']: <type 'unicode'>, sample data: u'http://www.newjersey'
+    [u'teams'][0][u'locationName']: <type 'unicode'>, sample data: u'New Jersey'
+    [u'teams'][0][u'franchise'] is a dictionary with 3 keys:
+	*** Standard franchise structure *** 
+
+    [u'teams'][0][u'roster'] is a dictionary with 2 keys:
+        [u'link', u'roster']
+        [u'teams'][0][u'roster'][u'link']: <type 'unicode'>, sample data: u'/api/v1/teams/1/rost'
+
+        *********************************************************************
+        [u'teams'][0][u'roster'][u'roster'] is a list with 34 levels:
+        [u'teams'][0][u'roster'][u'roster'][0]**********************************
+        [u'teams'][0][u'roster'][u'roster'][0] is a dictionary with 3 keys:
+            [u'person', u'jerseyNumber', u'position']
+            [u'teams'][0][u'roster'][u'roster'][0][u'person'] is a dictionary with 3 keys:
+		*** Standard person memo structure EXCEPT using fullName *** 
+            [u'teams'][0][u'roster'][u'roster'][0][u'jerseyNumber']: <type 'unicode'>, sample data: u'11'
+            [u'teams'][0][u'roster'][u'roster'][0][u'position'] is a dictionary with 4 keys:
+		*** Standard position structure *** 
+

@@ -1,0 +1,44 @@
+Team stats -- season
+This is almost all single attributes or standard structures
+Those standard structures are marked below
+
+
+
+[u'copyright', u'teams']
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
+
+*********************************************************************
+[u'teams'] is a list with 31 levels:
+[u'teams'][0]**********************************
+[u'teams'][0] is a dictionary with 16 keys:
+    [u'conference', u'teamStats', u'name', u'division', u'firstYearOfPlay', u'venue', u'teamName', u'officialSiteUrl', u'locationName', u'franchise', u'franchiseId', u'link', u'abbreviation', u'active', u'shortName', u'id']
+    Report truncated at 10 leaves
+    [u'teams'][0][u'conference'] is a dictionary with 3 keys:
+ 	*** Standard conference structure ***
+    [u'teams'][0][u'name']: <type 'unicode'>, sample data: u'New Jersey Devils'
+    [u'teams'][0][u'division'] is a dictionary with 5 keys:
+ 	*** Standard division structure ***
+    [u'teams'][0][u'firstYearOfPlay']: <type 'unicode'>, sample data: u'1982'
+    [u'teams'][0][u'venue'] is a dictionary with 4 keys:
+ 	*** Standard venue structure ***
+    [u'teams'][0][u'teamName']: <type 'unicode'>, sample data: u'Devils'
+    [u'teams'][0][u'officialSiteUrl']: <type 'unicode'>, sample data: u'http://www.newjersey'
+    [u'teams'][0][u'locationName']: <type 'unicode'>, sample data: u'New Jersey'
+    [u'teams'][0][u'franchise'] is a dictionary with 3 keys:
+ 	*** Standard franchise structure ***
+
+    *********************************************************************
+    [u'teams'][0][u'teamStats'] is a list with 1 levels:
+    [u'teams'][0][u'teamStats'][0]**********************************
+    [u'teams'][0][u'teamStats'][0] is a dictionary with 2 keys:
+        [u'type', u'splits']
+
+        *********************************************************************
+        [u'teams'][0][u'teamStats'][0][u'type'] is a dictionary with 1 keys:
+            [u'displayName']
+            [u'teams'][0][u'teamStats'][0][u'type'][u'displayName']: <type 'unicode'>, sample data: u'statsSingleSeason'
+
+        *********************************************************************
+        [u'teams'][0][u'teamStats'][0][u'splits'] is a list with 2 levels:
+        [u'teams'][0][u'teamStats'][0][u'splits'][0]**********************************
+	 	*** Standard team splits structure ***

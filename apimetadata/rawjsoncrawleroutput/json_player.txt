@@ -1,0 +1,32 @@
+[u'copyright', u'people']
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
+
+*********************************************************************
+[u'people'] is a list with 1 levels:
+[u'people'][0]**********************************
+[u'people'][0] is a dictionary with 21 keys:
+    [u'captain', u'shootsCatches', u'weight', u'firstName', u'id', u'lastName', u'birthCity', u'primaryPosition', u'birthDate', u'currentTeam', u'height', u'alternateCaptain', u'birthCountry', u'link', u'currentAge', u'rookie', u'active', u'primaryNumber', u'nationality', u'rosterStatus', u'fullName']
+    Report truncated at 10 leaves
+    [u'people'][0][u'captain']: <type 'bool'>, sample data: False
+    [u'people'][0][u'shootsCatches']: <type 'unicode'>, sample data: u'L'
+    [u'people'][0][u'weight']: <type 'int'>, sample data: 210
+    [u'people'][0][u'firstName']: <type 'unicode'>, sample data: u'Nicklas'
+    [u'people'][0][u'id']: <type 'int'>, sample data: 8473563
+    [u'people'][0][u'lastName']: <type 'unicode'>, sample data: u'Backstrom'
+    [u'people'][0][u'birthCity']: <type 'unicode'>, sample data: u'G\xe4vle'
+
+    *********************************************************************
+    [u'people'][0][u'primaryPosition'] is a dictionary with 4 keys:
+        [u'abbreviation', u'code', u'type', u'name']
+        [u'people'][0][u'primaryPosition'][u'abbreviation']: <type 'unicode'>, sample data: u'C'
+        [u'people'][0][u'primaryPosition'][u'code']: <type 'unicode'>, sample data: u'C'
+        [u'people'][0][u'primaryPosition'][u'type']: <type 'unicode'>, sample data: u'Forward'
+        [u'people'][0][u'primaryPosition'][u'name']: <type 'unicode'>, sample data: u'Center'
+    [u'people'][0][u'birthDate']: <type 'unicode'>, sample data: u'1987-11-23'
+
+    *********************************************************************
+    [u'people'][0][u'currentTeam'] is a dictionary with 3 keys:
+        [u'link', u'id', u'name']
+        [u'people'][0][u'currentTeam'][u'link']: <type 'unicode'>, sample data: u'/api/v1/teams/15'
+        [u'people'][0][u'currentTeam'][u'id']: <type 'int'>, sample data: 15
+        [u'people'][0][u'currentTeam'][u'name']: <type 'unicode'>, sample data: u'Washington Capitals'

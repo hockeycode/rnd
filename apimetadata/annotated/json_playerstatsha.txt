@@ -1,0 +1,27 @@
+Largely standardized except for some playerstats variations
+
+[u'stats', u'copyright']
+
+*********************************************************************
+[u'stats'] is a list with 1 levels:
+[u'stats'][0]**********************************
+[u'stats'][0] is a dictionary with 2 keys:
+    [u'type', u'splits']
+
+    *********************************************************************
+    [u'stats'][0][u'type'] is a dictionary with 1 keys:
+        [u'displayName']
+        [u'stats'][0][u'type'][u'displayName']: <type 'unicode'>, sample data: u'homeAndAway'
+
+    *********************************************************************
+    [u'stats'][0][u'splits'] is a list with 2 levels:
+    [u'stats'][0][u'splits'][0]**********************************
+    [u'stats'][0][u'splits'][0] is a dictionary with 3 keys:
+        [u'season', u'stat', u'isHome']
+        [u'stats'][0][u'splits'][0][u'season']: <type 'unicode'>, sample data: u'20172018'
+        [u'stats'][0][u'splits'][0][u'stat'] is a dictionary with 26 keys:
+	   *** Standard playerstats format **
+        [u'stats'][0][u'splits'][0][u'isHome']: <type 'bool'>, sample data: True
+
+
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'

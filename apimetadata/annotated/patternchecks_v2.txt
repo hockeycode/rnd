@@ -1,0 +1,156 @@
+Note that teams match refers only to the overlapping variables with teamstats team info
+Basic team memo data (a few attributes)
+Comparing to teamstats
+scheduleteam: True
+schedule: True
+teams: False
+boxscore: True
+scheduledt2: True
+scheduledt1: True
+
+
+Detailed team information (name, franchise, etc.)
+Comparing to teams
+livefeed: False
+
+
+Conference description
+Comparing to teams
+teamrosterseason: True
+livefeed: True
+Manual check: teamstatsseason
+
+
+Division description
+Comparing to teams
+teamrosterseason: True
+livefeed: False
+Manual check: teamstatsseason
+Note that livefeed has less information than the others, but all livefeed
+keys can be found in teams
+
+
+Venue description
+Comparing to schedule
+scheduleteam: True
+teams: False
+scheduledt2: True
+livefeed: False
+scheduledt1: True
+teamrosterseason: False
+Schedule matches: scheduleteam, scheduledt2, scheduledt1
+Teams matches: teamrosterseason,teamstatsseason
+livefeed matches teams EXCEPT that livefeed also has an id key
+
+
+Franchise description
+Comparing to teams
+teamrosterseason: True
+livefeed: True
+Manual check: teamstatsseason
+
+
+Note that player match refers only to the overlapping variables with teamrosterseason info
+Short information on player
+Comparing to teamrosterseason
+player: False
+
+
+Detailed player information, date of data pull
+Comparing to player
+teamrosterseason: False
+boxscore: False
+livefeed: False
+
+
+Position -- standard
+Comparing to teamrosterseason
+player: True
+boxscore: True
+
+
+Skater stats
+Comparing to playerstatsha
+playerstatsgl: False
+playerstatsmmm: True
+playerstatsdiv: False
+playerstatswl: True
+playerstatsconf: False
+playerstatsseason: False
+playerstatsdow: True
+playerstatsvteam: False
+
+
+Full game query results
+Comparing to scheduleteam
+schedule: True
+scheduledt2: True
+scheduledt1: True
+
+
+Information on a specific game
+Comparing to scheduleteam
+scheduledt1: True
+scheduledt2: True
+schedule: True
+
+
+Game status
+Comparing to scheduleteam
+scheduledt1: True
+scheduledt2: True
+livefeed: True
+schedule: True
+
+
+Leauge record to date of game
+Comparing to scheduleteam
+scheduledt1: True
+scheduledt2: True
+schedule: True
+
+
+Team score in this game
+Comparing to scheduleteam
+scheduledt1: True
+scheduledt2: True
+schedule: True
+
+
+Linescore data: shootout info
+Comparing to livefeed
+linescore: True
+
+
+Linescore data -- intermission info
+Comparing to livefeed
+linescore: True
+
+
+Linescore data: powerplay info
+Comparing to livefeed
+linescore: True
+
+
+Linescore data: periods
+Comparing to livefeed
+linescore: True
+
+
+Linescore data: teams
+Comparing to livefeed
+linescore: False
+Note that the only difference is that livefeed [teams][home][team] 
+has the tricode and abbreviation, but linescore does not
+
+Boxscore data: officials
+Comparing to livefeed
+boxscore: True
+
+
+Boxscore data: teams
+Comparing to livefeed
+boxscore: False
+The difference here is in the player data -- boxscore has lots of 
+information (e.g. alternateCaptain) but livefeed is shorter
+

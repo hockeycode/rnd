@@ -1,0 +1,52 @@
+[u'copyright', u'teams']
+[u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
+
+*********************************************************************
+[u'teams'] is a list with 31 levels:
+[u'teams'][0]**********************************
+[u'teams'][0] is a dictionary with 15 keys:
+    [u'conference', u'division', u'name', u'firstYearOfPlay', u'venue', u'teamName', u'officialSiteUrl', u'locationName', u'franchise', u'franchiseId', u'link', u'abbreviation', u'active', u'shortName', u'id']
+    Report truncated at 10 leaves
+
+    *********************************************************************
+    [u'teams'][0][u'conference'] is a dictionary with 3 keys:
+        [u'link', u'id', u'name']
+        [u'teams'][0][u'conference'][u'link']: <type 'unicode'>, sample data: u'/api/v1/conferences/'
+        [u'teams'][0][u'conference'][u'id']: <type 'int'>, sample data: 6
+        [u'teams'][0][u'conference'][u'name']: <type 'unicode'>, sample data: u'Eastern'
+
+    *********************************************************************
+    [u'teams'][0][u'division'] is a dictionary with 5 keys:
+        [u'nameShort', u'abbreviation', u'link', u'id', u'name']
+        [u'teams'][0][u'division'][u'nameShort']: <type 'unicode'>, sample data: u'Metro'
+        [u'teams'][0][u'division'][u'abbreviation']: <type 'unicode'>, sample data: u'M'
+        [u'teams'][0][u'division'][u'link']: <type 'unicode'>, sample data: u'/api/v1/divisions/18'
+        [u'teams'][0][u'division'][u'id']: <type 'int'>, sample data: 18
+        [u'teams'][0][u'division'][u'name']: <type 'unicode'>, sample data: u'Metropolitan'
+    [u'teams'][0][u'name']: <type 'unicode'>, sample data: u'New Jersey Devils'
+    [u'teams'][0][u'firstYearOfPlay']: <type 'unicode'>, sample data: u'1982'
+
+    *********************************************************************
+    [u'teams'][0][u'venue'] is a dictionary with 4 keys:
+        [u'city', u'link', u'name', u'timeZone']
+        [u'teams'][0][u'venue'][u'city']: <type 'unicode'>, sample data: u'Newark'
+        [u'teams'][0][u'venue'][u'link']: <type 'unicode'>, sample data: u'/api/v1/venues/null'
+        [u'teams'][0][u'venue'][u'name']: <type 'unicode'>, sample data: u'Prudential Center'
+
+        *********************************************************************
+        [u'teams'][0][u'venue'][u'timeZone'] is a dictionary with 3 keys:
+            [u'tz', u'id', u'offset']
+            [u'teams'][0][u'venue'][u'timeZone'][u'tz']: <type 'unicode'>, sample data: u'EST'
+            [u'teams'][0][u'venue'][u'timeZone'][u'id']: <type 'unicode'>, sample data: u'America/New_York'
+            [u'teams'][0][u'venue'][u'timeZone'][u'offset']: <type 'int'>, sample data: -5
+    [u'teams'][0][u'teamName']: <type 'unicode'>, sample data: u'Devils'
+    [u'teams'][0][u'officialSiteUrl']: <type 'unicode'>, sample data: u'http://www.newjersey'
+    [u'teams'][0][u'locationName']: <type 'unicode'>, sample data: u'New Jersey'
+
+    *********************************************************************
+    [u'teams'][0][u'franchise'] is a dictionary with 3 keys:
+        [u'franchiseId', u'link', u'teamName']
+        [u'teams'][0][u'franchise'][u'franchiseId']: <type 'int'>, sample data: 23
+        [u'teams'][0][u'franchise'][u'link']: <type 'unicode'>, sample data: u'/api/v1/franchises/2'
+        [u'teams'][0][u'franchise'][u'teamName']: <type 'unicode'>, sample data: u'Devils'
+    [u'teams'][0][u'franchiseId']: <type 'int'>, sample data: 23

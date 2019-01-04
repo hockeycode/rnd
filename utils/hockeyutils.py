@@ -98,8 +98,16 @@ def checks(df,head=True):
 	if head==True:
 		print(df.head(2))
 
-
-
-
+####################################################################
+# 5. convert text mm:ss into mm.mmmm
+####################################################################
+def stringtominutes(t):
+	# takes MMMM:SS (arbitrary number of minutes) and yields MMMMM.MMMMM
+	if pd.isnull(t):
+		s=[0,0]
+	else:
+		s=t.split(':')
+	return(float(s[0])+float(s[1])/60.0)
+stringtominutesv=np.vectorize(stringtominutes)
 
 
