@@ -21,6 +21,8 @@ Standard variable names, usually used as indices/keys:
 		not to be confused with franchise id
 		AKA: teamId, team.id
 	confid: unique identifier for a conference
+	franchid: unique identifier for a franchise
+	divnid: unique identifier for a division
 	season: the season of play, of the form 20172018
 
 Variable name patterns:
@@ -28,6 +30,9 @@ Variable name patterns:
 		t. team
 		p. player
 		c. conference
+		d. division
+		f. franchise
+		v. venue
 	prefixes for who:
 		s. shooter
 		g. goalie
@@ -73,4 +78,5 @@ Function naming:
 		Example: "calcplusminus" calculates +/- and doesn't do other stuff
 	Functions that primarily interact with a specific structure within 
 		the NHL API should reference that in their name
-
+	Functions that primarily are there to do base data formatting on the
+		output of raw data pulls should start with "base"

@@ -1,4 +1,4 @@
-Very sandardized
+Very standardized
 
 [u'copyright', u'people']
 [u'copyright']: <type 'unicode'>, sample data: u'NHL and the NHL Shie'
